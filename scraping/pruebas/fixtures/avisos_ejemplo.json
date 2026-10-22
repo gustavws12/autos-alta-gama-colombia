@@ -1,0 +1,384 @@
+{
+ "busqueda": [
+  {
+   "id": "MCO111",
+   "title": "Porsche 911 Carrera S 2021",
+   "price": 739000000,
+   "currency_id": "COP",
+   "permalink": "https://articulo.tucarro.com.co/MCO-111-porsche-911-carrera-s-_JM",
+   "condition": "used",
+   "status": "active",
+   "thumbnail": "http://http2.mlstatic.com/D_NQ_NP_1-I.jpg",
+   "address": {
+    "city_name": "Bogotá D.C.",
+    "state_name": "Bogotá D.C."
+   }
+  },
+  {
+   "id": "MCO222",
+   "title": "Porsche Cayman 2014 impecable",
+   "price": null,
+   "currency_id": "COP",
+   "permalink": "https://carro.mercadolibre.com.co/MCO-222-porsche-cayman-_JM",
+   "condition": "used",
+   "status": "active",
+   "thumbnail": "http://http2.mlstatic.com/D_NQ_NP_2-I.jpg",
+   "address": {
+    "city_name": "Medellín",
+    "state_name": "Antioquia"
+   }
+  },
+  {
+   "id": "MCO333",
+   "title": "Porsche Panamera 4S",
+   "price": 270000000,
+   "currency_id": "COP",
+   "permalink": "https://articulo.tucarro.com.co/MCO-333-porsche-panamera-4s-_JM",
+   "condition": "used",
+   "status": "active",
+   "thumbnail": "http://http2.mlstatic.com/D_NQ_NP_3-I.jpg",
+   "address": {}
+  },
+  {
+   "id": "MCO444",
+   "title": "Porsche 911 Turbo S",
+   "price": 900000000,
+   "currency_id": "COP",
+   "permalink": "https://articulo.tucarro.com.co/MCO-444-porsche-911-turbo-s-_JM",
+   "condition": "used",
+   "status": "paused",
+   "thumbnail": "http://http2.mlstatic.com/D_NQ_NP_4-I.jpg",
+   "address": {
+    "city_name": "Cali",
+    "state_name": "Valle del Cauca"
+   }
+  },
+  {
+   "id": "MCO555",
+   "title": "Porsche Boxster 2005 motor 2012 repotenciado",
+   "price": 195000000,
+   "currency_id": "COP",
+   "permalink": "https://carro.mercadolibre.com.co/MCO-555-porsche-boxster-_JM",
+   "condition": "used",
+   "status": "active",
+   "thumbnail": "http://http2.mlstatic.com/D_NQ_NP_5-I.jpg",
+   "address": {
+    "city_name": "Barranquilla",
+    "state_name": "Atlántico"
+   }
+  },
+  {
+   "id": "MCO666",
+   "title": "Porsche 718 Cayman GT4",
+   "price": 150000,
+   "currency_id": "USD",
+   "permalink": "https://articulo.tucarro.com.co/MCO-666-porsche-718-cayman-gt4-_JM",
+   "condition": "used",
+   "status": "active",
+   "thumbnail": "http://http2.mlstatic.com/D_NQ_NP_6-I.jpg",
+   "address": {
+    "city_name": "Bogotá D.C.",
+    "state_name": "Bogotá D.C."
+   }
+  },
+  {
+   "id": "MCO777",
+   "title": "Mercedes Benz C63 AMG Coupé",
+   "price": 178000000,
+   "currency_id": "COP",
+   "permalink": "https://articulo.tucarro.com.co/MCO-777-mercedes-benz-c63-amg-_JM",
+   "condition": "used",
+   "status": "active",
+   "thumbnail": "http://http2.mlstatic.com/D_NQ_NP_7-I.jpg",
+   "address": {
+    "city_name": "Envigado",
+    "state_name": "Antioquia"
+   }
+  },
+  {
+   "id": "MCO888",
+   "title": "Mercedes Benz CLA 45 AMG chocado para repuestos",
+   "price": 60000000,
+   "currency_id": "COP",
+   "permalink": "https://carro.mercadolibre.com.co/MCO-888-mercedes-cla-45-_JM",
+   "condition": "used",
+   "status": "active",
+   "thumbnail": "http://http2.mlstatic.com/D_NQ_NP_8-I.jpg",
+   "address": {
+    "city_name": "Bogotá D.C.",
+    "state_name": "Bogotá D.C."
+   }
+  }
+ ],
+ "detalle": [
+  {
+   "id": "MCO111",
+   "title": "Porsche 911 Carrera S 2021",
+   "price": 739000000,
+   "currency_id": "COP",
+   "permalink": "https://articulo.tucarro.com.co/MCO-111-porsche-911-carrera-s-_JM",
+   "condition": "used",
+   "status": "active",
+   "attributes": [
+    {
+     "id": "VEHICLE_YEAR",
+     "name": "Año",
+     "value_name": "2021"
+    },
+    {
+     "id": "KILOMETERS",
+     "name": "Kilómetros",
+     "value_name": "18.500 km",
+     "value_struct": {
+      "number": 18500,
+      "unit": "km"
+     }
+    },
+    {
+     "id": "ENGINE_DISPLACEMENT",
+     "name": "Cilindrada",
+     "value_name": "2981 cc",
+     "value_struct": {
+      "number": 2981,
+      "unit": "cc"
+     }
+    },
+    {
+     "id": "BRAND",
+     "name": "Marca",
+     "value_name": "Porsche"
+    },
+    {
+     "id": "MODEL",
+     "name": "Modelo",
+     "value_name": "911"
+    },
+    {
+     "id": "TRIM",
+     "name": "Versión",
+     "value_name": "Carrera S"
+    },
+    {
+     "id": "TRANSMISSION",
+     "name": "Transmisión",
+     "value_name": "Automática"
+    }
+   ],
+   "pictures": [
+    {
+     "id": "P1",
+     "secure_url": "https://http2.mlstatic.com/D_NQ_NP_2X_1-O.jpg",
+     "url": "http://http2.mlstatic.com/D_NQ_NP_2X_1-O.jpg"
+    }
+   ]
+  },
+  {
+   "id": "MCO222",
+   "title": "Porsche Cayman 2014 impecable",
+   "price": null,
+   "currency_id": "COP",
+   "permalink": "https://carro.mercadolibre.com.co/MCO-222-porsche-cayman-_JM",
+   "condition": "used",
+   "status": "active",
+   "attributes": [
+    {
+     "id": "BRAND",
+     "name": "Marca",
+     "value_name": "Porsche"
+    },
+    {
+     "id": "MODEL",
+     "name": "Modelo",
+     "value_name": "Cayman"
+    }
+   ],
+   "pictures": [
+    {
+     "id": "P2",
+     "secure_url": "https://http2.mlstatic.com/D_NQ_NP_2X_2-O.jpg",
+     "url": "http://http2.mlstatic.com/D_NQ_NP_2X_2-O.jpg"
+    }
+   ]
+  },
+  {
+   "id": "MCO333",
+   "title": "Porsche Panamera 4S",
+   "price": 270000000,
+   "currency_id": "COP",
+   "permalink": "https://articulo.tucarro.com.co/MCO-333-porsche-panamera-4s-_JM",
+   "condition": "used",
+   "status": "active",
+   "attributes": [
+    {
+     "id": "VEHICLE_YEAR",
+     "name": "Año",
+     "value_name": "2016"
+    },
+    {
+     "id": "ENGINE_DISPLACEMENT",
+     "name": "Cilindrada",
+     "value_name": "3.0 L",
+     "value_struct": {
+      "number": 3.0,
+      "unit": "L"
+     }
+    },
+    {
+     "id": "KILOMETERS",
+     "name": "Kilómetros",
+     "value_name": "72.000 km",
+     "value_struct": {
+      "number": 72000,
+      "unit": "km"
+     }
+    },
+    {
+     "id": "TRIM",
+     "name": "Versión",
+     "value_name": "4S"
+    }
+   ],
+   "pictures": [
+    {
+     "id": "P3",
+     "secure_url": "https://http2.mlstatic.com/D_NQ_NP_2X_3-O.jpg",
+     "url": "http://http2.mlstatic.com/D_NQ_NP_2X_3-O.jpg"
+    }
+   ],
+   "seller_address": {
+    "city": {
+     "name": "Rionegro"
+    },
+    "state": {
+     "name": "Antioquia"
+    }
+   }
+  },
+  {
+   "id": "MCO444",
+   "title": "Porsche 911 Turbo S",
+   "price": 900000000,
+   "currency_id": "COP",
+   "permalink": "https://articulo.tucarro.com.co/MCO-444-porsche-911-turbo-s-_JM",
+   "condition": "used",
+   "status": "paused",
+   "attributes": [
+    {
+     "id": "VEHICLE_YEAR",
+     "name": "Año",
+     "value_name": "2022"
+    }
+   ],
+   "pictures": [
+    {
+     "id": "P4",
+     "secure_url": "https://http2.mlstatic.com/D_NQ_NP_2X_4-O.jpg",
+     "url": "http://http2.mlstatic.com/D_NQ_NP_2X_4-O.jpg"
+    }
+   ]
+  },
+  {
+   "id": "MCO555",
+   "title": "Porsche Boxster 2005 motor 2012 repotenciado",
+   "price": 195000000,
+   "currency_id": "COP",
+   "permalink": "https://carro.mercadolibre.com.co/MCO-555-porsche-boxster-_JM",
+   "condition": "used",
+   "status": "active",
+   "attributes": [
+    {
+     "id": "ENGINE_DISPLACEMENT",
+     "name": "Cilindrada",
+     "value_name": "2.7 L",
+     "value_struct": {
+      "number": 2.7,
+      "unit": "L"
+     }
+    }
+   ],
+   "pictures": [
+    {
+     "id": "P5",
+     "secure_url": "https://http2.mlstatic.com/D_NQ_NP_2X_5-O.jpg",
+     "url": "http://http2.mlstatic.com/D_NQ_NP_2X_5-O.jpg"
+    }
+   ]
+  },
+  {
+   "id": "MCO666",
+   "title": "Porsche 718 Cayman GT4",
+   "price": 150000,
+   "currency_id": "USD",
+   "permalink": "https://articulo.tucarro.com.co/MCO-666-porsche-718-cayman-gt4-_JM",
+   "condition": "used",
+   "status": "active",
+   "attributes": [
+    {
+     "id": "VEHICLE_YEAR",
+     "name": "Año",
+     "value_name": "2023"
+    },
+    {
+     "id": "ENGINE_DISPLACEMENT",
+     "name": "Cilindrada",
+     "value_name": "3995 cc",
+     "value_struct": {
+      "number": 3995,
+      "unit": "cc"
+     }
+    }
+   ],
+   "pictures": [
+    {
+     "id": "P6",
+     "secure_url": "https://http2.mlstatic.com/D_NQ_NP_2X_6-O.jpg",
+     "url": "http://http2.mlstatic.com/D_NQ_NP_2X_6-O.jpg"
+    }
+   ]
+  },
+  {
+   "id": "MCO777",
+   "title": "Mercedes Benz C63 AMG Coupé",
+   "price": 178000000,
+   "currency_id": "COP",
+   "permalink": "https://articulo.tucarro.com.co/MCO-777-mercedes-benz-c63-amg-_JM",
+   "condition": "used",
+   "status": "active",
+   "attributes": [
+    {
+     "id": "VEHICLE_YEAR",
+     "name": "Año",
+     "value_name": "2015"
+    },
+    {
+     "id": "BRAND",
+     "name": "Marca",
+     "value_name": "Mercedes-Benz"
+    }
+   ]
+  },
+  {
+   "id": "MCO888",
+   "title": "Mercedes Benz CLA 45 AMG chocado para repuestos",
+   "price": 60000000,
+   "currency_id": "COP",
+   "permalink": "https://carro.mercadolibre.com.co/MCO-888-mercedes-cla-45-_JM",
+   "condition": "used",
+   "status": "active",
+   "attributes": [
+    {
+     "id": "VEHICLE_YEAR",
+     "name": "Año",
+     "value_name": "2017"
+    }
+   ],
+   "pictures": [
+    {
+     "id": "P8",
+     "secure_url": "https://http2.mlstatic.com/D_NQ_NP_2X_8-O.jpg",
+     "url": "http://http2.mlstatic.com/D_NQ_NP_2X_8-O.jpg"
+    }
+   ]
+  }
+ ]
+}

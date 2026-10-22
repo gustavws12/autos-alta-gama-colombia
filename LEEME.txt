@@ -1,0 +1,64 @@
+AUTOS USADOS ALTA GAMA - COLOMBIA
+Recolección: 24 de agosto de 2026
+=================================================
+
+CONTENIDO DEL ZIP
+-----------------
+
+/  (raíz)
+  deportivos_alta_gama_colombia.xlsx ... ARCHIVO PRINCIPAL. 310 avisos de 12 marcas
+                                         (incluye los 13 del BMW Z4). Hoja "Avisos"
+                                         con filtros y links, hoja "Análisis por marca"
+                                         con precios mín/prom/máx por marca, modelo y
+                                         cilindraje, más hallazgos.
+  bmw_z4_usados_colombia.xlsx .......... Primer archivo, solo BMW Z4 (13 avisos).
+                                         Ya está contenido dentro del principal.
+  PROMPT_web_scraping.md ............... Prompt listo para copiar y pegar en un chat
+                                         nuevo y repetir o ampliar el scraping.
+  LEEME.txt ............................ Este archivo.
+
+/datos_crudos
+  data_chevrolet.json, data_ford.json, data_mercedes.json, data_audi.json,
+  data_mini.json, data_porsche.json, data_otros.json
+                                         Los avisos en JSON, tal como se recolectaron,
+                                         antes de armar el Excel. Útiles si quieres
+                                         reprocesarlos con otra herramienta.
+
+/scripts
+  build_consolidado.py ................. Genera el Excel principal a partir de los JSON.
+  build_xlsx.py ........................ Genera el Excel del BMW Z4.
+                                         Ambos requieren: pip install openpyxl
+
+
+CIFRAS PRINCIPALES
+------------------
+Avisos recolectados ................ 310  (308 únicos, 2 espejados entre portales)
+Avisos con precio publicado ........ 227
+Rango de precios ................... $41.500.000  a  $1.150.000.000 COP
+Mediana general .................... $195.000.000 COP
+Avisos chocados / para reparar ..... 0
+
+Promedio por marca (mayor a menor):
+  Porsche $518 M · Jaguar $465 M · Chevrolet $464 M · Dodge $392 M · Ford $259 M ·
+  Nissan $208 M · BMW $208 M · Audi $198 M · Mercedes-Benz $193 M · MINI $103 M
+  (Toyota y Subaru tienen muy pocos avisos para promediar de forma confiable)
+
+
+LIMITACIONES QUE DEBES CONOCER
+------------------------------
+1. TuCarro, MercadoLibre, CarroYa, Mitula, VendeTuNave y demás portales colombianos
+   bloquean la lectura automatizada de sus páginas (error 403 / robots.txt) o cargan
+   el contenido por JavaScript. Los datos se obtuvieron de los resultados de búsqueda
+   indexados de cada aviso, no de la ficha completa.
+
+2. Por lo anterior, KILOMETRAJE y CIUDAD aparecen como ND en casi todos los registros.
+   Es la limitación más importante del conjunto de datos.
+
+3. El CILINDRAJE se derivó de la versión indicada en el título del aviso cuando no venía
+   explícito. Cada supuesto está documentado aviso por aviso en la columna "Nota".
+   Cuando la versión admitía más de un motor, el campo quedó en ND.
+
+4. Los PRECIOS son los publicados por el vendedor, no precios de transacción.
+
+5. Las filas resaltadas en amarillo son la misma publicación espejada entre TuCarro y
+   MercadoLibre (mismo ID MCO). Están excluidas de todas las estadísticas.

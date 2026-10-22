@@ -1,0 +1,16 @@
+Fotos del marketplace
+=====================
+
+Pon aquí las imágenes de los vehículos. El nombre del archivo debe ser el ID
+del aviso, que es el código MCO que aparece en el link:
+
+  https://articulo.tucarro.com.co/MCO-644551264-audi-a5-...
+                                  ^^^^^^^^^^^^^
+
+  ->  MCO644551264.jpg     (también sirve MCO-644551264.jpg)
+
+Formatos aceptados: .jpg .jpeg .png .webp .gif
+También puedes usar el número de la columna "#" del Excel: 1.jpg, 2.jpg, ...
+
+Alternativa sin descargar nada: llena fotos.csv (en la carpeta del app) con
+dos columnas, id y url, y el tablero carga la imagen desde ese enlace.
